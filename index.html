@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pokemon Search App</title>
+    <link rel="stylesheet" href="./styles.css"/>
+  </head>
+  <body>
+    <header>
+      <img id="fcc-logo" src="https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png" alt="freeCodeCamp Logo"/>
+    </header>
+    <h1><img id="pokemon-logo" src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon Logo"/><img id="gotta-catch-em-all" src="https://www.giantbomb.com/a/uploads/scale_super/0/1481/2897229-9939923796-latest" alt="Gotta catch em all!"/></h1>
+    <div id="container">
+      <div id="device">
+        <div id="device-top">
+          <div id="device-top-left">
+            <div class="device-top-left-divs" id="device-top-left-div-left">
+              <label>Search for Pokémon <strong>Name</strong> or <strong>ID</strong>:</label>
+              <input type="text" id="search-input" required/>
+              <button id="search-button">Search</button>
+              <a href="https://www.youtube.com/watch?v=6xKWiCMKKJg" target="_blank"><img id="poke-ball" src="https://i0.wp.com/mynintendonews.com/wp-content/uploads/2013/09/pokeball.png" alt="Pokeball"/></a>
+            </div>
+            <div class="device-top-left-divs" id="device-top-left-div-right"></div>
+          </div>
+          <div id="device-top-right">
+            <h2><span id="pokemon-name"></span><span id="pokemon-id"></span></h2>
+            <div id="weight-height">
+              <p><span id="weight"></span></p>
+              <p><span id="height"></span></p>
+            </div>
+            <div id="sprite-frame">
+            </div>
+            <div id="types">
+            </div>
+          </div>
+        </div>
+        <div id="device-middle"></div>
+        <div id="device-bottom">
+          <table>
+            <tr>
+              <th>Base</th>
+              <th>Stats</th>
+            </tr>
+            <tr>
+              <td>HP:</td>
+              <td id="hp"></td>
+            </tr>
+            <tr>
+              <td>Attack:</td>
+              <td id="attack"></td>
+            </tr>
+            <tr>
+              <td>Defense:</td>
+              <td id="defense"></td>
+            </tr>
+            <tr>
+              <td>Sp. Attack:</td>
+              <td id="special-attack"></td>
+            </tr>
+            <tr>
+              <td>Sp. Defense:</td>
+              <td id="special-defense"></td>
+            </tr>
+            <tr>
+              <td>Speed:</td>
+              <td id="speed"></td>
+            </tr>
+          </table>
+        </div>
+        <img id="ash-and-pikachu" src="https://www.freepnglogos.com/uploads/pokemon-png/ash-and-pikachu-dashiesparkle-pokemon-png-29.png" alt="Ask Ketchum and Pikachu"/>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

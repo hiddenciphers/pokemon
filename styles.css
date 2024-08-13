@@ -1,0 +1,273 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a0a23;
+}
+
+header {
+  text-align: center;
+  margin-bottom: -40px;
+}
+
+#fcc-logo {
+  margin-top: -10px;
+  width: 320px;
+  margin-left: 13px;
+}
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 22pt;
+  width: 200px;
+  margin: auto;
+}
+
+#pokemon-logo {
+  width: 200px;
+}
+
+#gotta-catch-em-all {
+  width: 220px;
+}
+
+#container {
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#device {
+  border: 1px solid white;
+  width: 400px;
+  height: 430px;
+  max-height: 430px;
+  display: block;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: darkgrey;
+}
+
+#device-top {
+  border: 1px solid white;
+  width: auto;
+  height: 195px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  background-color: black;
+}
+
+#device-top-left {
+  width: 46.5%;
+  height: 95%;
+  display: flex;
+  flex-wrap: no-wrap;
+  padding: 5px;
+  justify-content: space-between;
+  gap: 0.2em;
+}
+
+.device-top-left-divs {
+  width: 182px;
+  height: 90px;
+}
+
+#device-top-left-div-left {
+  padding: 5px;
+  height: 120px;
+  width: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+}
+
+label {
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+input {
+  width: 100px;
+  border-radius: 2px;
+}
+
+button {
+  background-color: gold;
+  border-radius: 8px;
+}
+
+#device-top-left-div-right {
+  padding: 10px;
+  height: 70%;
+  width: 100%;
+}
+
+#device-top-right {
+  width: 46.5%;
+  height: 95%;
+  font-family: sans-serif;
+  font-size: 8;
+  padding: 5px;
+}
+
+h2 {
+  position: absolute;
+  display: flex;
+}
+
+#pokemon-name , #pokemon-id{
+  background-color: gold;
+  border: 1px solid darkgrey;
+  width: auto;
+  padding: 4px;
+  border-radius: 4px;
+  color: blue;
+  font-weight: lighter;
+  font-size: 14px;
+  visibility: hidden;
+  margin-top: -23px;
+}
+
+#pokemon-name {
+  margin-left: 30px;
+
+}
+
+#pokemon-id {
+  margin-left: 5px;
+}
+
+#weight-height {
+  margin-top: -20px;
+}
+
+#weight, #height {
+  background-color: green;
+  border: 1px solid darkgrey;
+  width: auto;
+  padding: 2px;
+  border-radius: 4px;
+  font-weight: lighter;
+  color: white;
+  margin-left: -60px;
+  font-size: 10px;
+  visibility: hidden;
+}
+
+#height {
+  position: absolute;
+  margin-top: -10px;
+}
+
+#sprite-frame {
+  background-color: white;
+  border-radius: 8px;
+  height: 80px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  visibility: hidden;
+  margin: auto;
+  border: 1px solid darkgrey;
+  margin-top: 30px;
+}
+
+#sprite {
+  margin-top: -25px;
+  display: none;
+  height: 200px;
+  width: 200px;
+  z-index: 1;
+}
+
+#types {
+  margin-top: 35px;
+  margin-left: -120px;
+  height: 26px;
+  padding: 2px;
+  font-size: 10px;
+  display: flex;
+}
+
+.type-span {
+  color: black;
+  width: auto;
+  padding: 3.5px;
+  display: flex;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.span-1 {
+  background-color: pink;
+  margin-left: 15px;
+}
+
+.span-2 {
+  background-color: orange;
+  margin-left: -180px;
+}
+
+.span-3 {
+  background-color: lightblue;
+  margin-left: -60px;
+}
+
+#device-middle {
+  border: 1px solid white;
+  margin-top: 5px
+}
+
+#device-bottom {
+  border: 1px solid white;
+  margin-top: 5px;
+  height: 180px;
+  border-radius: 8px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+table {
+  color: white;
+  background-color: blue;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding: 5px;
+}
+
+table {
+  border: 1px solid blue;
+}
+
+td {
+  background-color: rgba(0, 0, 0, 0.123)
+}
+
+#ash-and-pikachu {
+  position: absolute;
+  margin-top: -76px;
+  margin-left: -5px;
+  width: 100px;
+}
+
+#poke-ball {
+  margin-top: 10px;
+  width: 60px;
+}
+
