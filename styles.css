@@ -271,8 +271,11 @@ td {
   width: 60px;
 }
 
+
+
+
 /* Large mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 499px) {
 
   #ash-and-pikachu {
     margin-top: -75px;
