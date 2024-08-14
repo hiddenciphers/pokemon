@@ -179,11 +179,11 @@ h2 {
   visibility: hidden;
   margin: auto;
   border: 1px solid darkgrey;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 #sprite {
-  margin-top: -25px;
+  margin-top: -55px;
   display: none;
   height: 200px;
   width: 200px;
@@ -191,7 +191,7 @@ h2 {
 }
 
 #types {
-  margin-top: 35px;
+  margin-top: 17px;
   margin-left: -120px;
   height: 26px;
   padding: 2px;
@@ -261,7 +261,7 @@ td {
 
 #ash-and-pikachu {
   position: absolute;
-  margin-top: -76px;
+  margin-top: -76.3px;
   margin-left: -5px;
   width: 100px;
 }
@@ -271,3 +271,28 @@ td {
   width: 60px;
 }
 
+/* Large mobile devices */
+@media (max-width: 768px) {
+
+  #ash-and-pikachu {
+    margin-top: -75px;
+    margin-left: -10px;
+  }
+
+  input {
+    width: 80px;
+  }
+
+  #pokemon-name, #pokemon-id {
+    font-size: 12px;
+  }
+
+  #types {
+    gap: 10px;
+  }
+
+  #device-bottom {
+    padding-bottom: 15px;
+  }
+
+}
